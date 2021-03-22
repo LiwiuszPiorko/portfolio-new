@@ -1,0 +1,65 @@
+.hobby-wrapper{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 30%, rgba(134, 0, 0, 1) 50%, rgba(0,0,0,1) 70%);
+        .hobby-wrapper__item1{
+            @include item;
+            top: 10%;
+            left: 30%;
+            background-image: url(/img/bookcase-1869616_1920.jpg);
+            .item1__title{
+                @include item-title;
+            }
+        }
+        .hobby-wrapper__item2{
+            @include item;
+            top: 30%;
+            left: 5%;
+            transform: rotate(-25deg);
+            background-image: url(/img/portrait-3163518_1920.jpg);
+            .item2__title{
+                @include item-title;
+            }
+        }
+        .hobby-wrapper__item3{
+            @include item;
+            top: 50%;
+            left: 35%;
+            transform: rotate(10deg);
+            background-image: url(/img/bustos-756620_1920.jpg);
+            .item3__title{
+                @include item-title;
+            }
+        }
+        .hobby-wrapper__item4{
+            @include item;
+            top: 40%;
+            right: 10%;
+            transform: rotate(10deg);
+            background-image: url(/img/meditation-1384758_1920.jpg);
+            .item4__title{
+               @include item-title;
+            }
+        }
+        .hobby-wrapper__item5{
+            @include item;
+            top: 10%;
+            right: 5%;
+            transform: rotate(-15deg);
+            background-image: url(/img/movie-918655_1920.jpg);
+            .item5__title{
+                @include item-title;
+            }
+        }
+        .hobby-wrapper__item6{
+            @include item;
+            bottom: 5%;
+            left: 5%;
+            background-image: url(/img/quantum-mechanics-1525470_1920.jpg);
+            .item6__title{
+                @include item-title;
+            }
+        }
+}

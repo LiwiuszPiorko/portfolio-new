@@ -1,0 +1,175 @@
+.tech{
+    background-image: url(/img/programming-1857236_1920.jpg);
+    .tech-wrapper{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-color: rgba($color: $colorBlack, $alpha: .8);
+        .tech-wrapper__skill-level{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .skill-level__item{
+                @include tech-item;
+                 .item__logo{
+                     @include tech-logo;
+                 }
+                 .item__scale{
+                     @include tech-scale;
+                     animation: animationHTML 2s 1s both;
+         
+                     @keyframes animationHTML {
+                         0%{
+                             width: 0;
+                         }
+                         100%{
+                             width: 90%;
+                         }
+                     }
+                 }
+                 .item__scale2{
+                     @include tech-scale;
+                     animation: animationCss 2s 1s both;
+         
+                     @keyframes animationCss {
+                         0%{
+                             width: 0;
+                         }
+                         100%{
+                             width: 90%;
+                         }
+                     }
+                 }
+                 .item__scale3{
+                     @include tech-scale;
+                     animation: animationJS 2s 1s both;
+         
+                     @keyframes animationJS {
+                         0%{
+                             width: 0;
+                         }
+                         100%{
+                             width: 70%;
+                         }
+                     }
+                 }
+                 .item__scale4{
+                     @include tech-scale;
+                     animation: animationReact 2s 1s both;
+         
+                     @keyframes animationReact {
+                         0%{
+                             width: 0;
+                         }
+                         100%{
+                             width: 60%;
+                         }
+                     }
+                 }
+                 .item__scale5{
+                    @include tech-scale;
+                    animation: animationNode 2s 1s both;
+        
+                    @keyframes animationNode {
+                        0%{
+                            width: 0;
+                        }
+                        100%{
+                            width: 40%;
+                        }
+                    }
+                }
+                .item__scale6{
+                    @include tech-scale;
+                    animation: animationSass 2s 1s both;
+        
+                    @keyframes animationSass {
+                        0%{
+                            width: 0;
+                        }
+                        100%{
+                            width: 80%;
+                        }
+                    }
+                }
+                .item__scale7{
+                    @include tech-scale;
+                    animation: animationBootstrap 2s 1s both;
+        
+                    @keyframes animationBootstrap {
+                        0%{
+                            width: 0;
+                        }
+                        100%{
+                            width: 60%;
+                        }
+                    }
+                }
+                .item__scale8{
+                    @include tech-scale;
+                    animation: animationGit 2s 1s both;
+        
+                    @keyframes animationGit {
+                        0%{
+                            width: 0;
+                        }
+                        100%{
+                            width: 80%;
+                        }
+                    }
+                }
+             } 
+        }
+        .tech-wrapper__additional-skills{
+            width: 70%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            .additional-skills__sentence1{
+                width: 90%;
+                height: 30%;
+                font-family: $mainFont;
+                font-size: 1.5vw;
+                color: $colorWhite;
+                font-style: italic;
+                font-weight: 300;
+
+                span{
+                    color: $mainColor;
+                    font-style: normal;
+                    font-weight: 700;
+                }
+            }
+            .additional-skills__sentence2{
+                width: 70%;
+                height: 20%;
+                font-family: $mainFont;
+                font-size: 2.5vw;
+                color: $colorWhite;
+                font-style: italic;
+                font-weight: 300;
+                span{
+                    color: $mainColor;
+                    font-style: normal;
+                    font-weight: 700;
+                }
+
+            }
+            .additional-skills__sentence3{
+                width: 70%;
+                height: 40%;
+                font-family: $mainFont;
+                font-size: 5vw;
+                color: $mainColor;
+                font-weight: 700;
+                text-align: right;
+            }
+        }
+    }
+
+}
+
