@@ -8,7 +8,7 @@
             @include item;
             top: 10%;
             left: 30%;
-            background-image: url(/img/bookcase-1869616_1920.jpg);
+            background-image: url(../img/bookcase-1869616_1920.jpg);
             .item1__title{
                 @include item-title;
             }
@@ -18,7 +18,7 @@
             top: 30%;
             left: 5%;
             transform: rotate(-25deg);
-            background-image: url(/img/portrait-3163518_1920.jpg);
+            background-image: url(../img/portrait-3163518_1920.jpg);
             .item2__title{
                 @include item-title;
             }
@@ -28,7 +28,7 @@
             top: 50%;
             left: 35%;
             transform: rotate(10deg);
-            background-image: url(/img/bustos-756620_1920.jpg);
+            background-image: url(../img/bustos-756620_1920.jpg);
             .item3__title{
                 @include item-title;
             }
@@ -38,7 +38,7 @@
             top: 40%;
             right: 10%;
             transform: rotate(10deg);
-            background-image: url(/img/meditation-1384758_1920.jpg);
+            background-image: url(../img/meditation-1384758_1920.jpg);
             .item4__title{
                @include item-title;
             }
@@ -48,7 +48,7 @@
             top: 10%;
             right: 5%;
             transform: rotate(-15deg);
-            background-image: url(/img/movie-918655_1920.jpg);
+            background-image: url(../img/movie-918655_1920.jpg);
             .item5__title{
                 @include item-title;
             }
@@ -57,7 +57,7 @@
             @include item;
             bottom: 5%;
             left: 5%;
-            background-image: url(/img/quantum-mechanics-1525470_1920.jpg);
+            background-image: url(../img/quantum-mechanics-1525470_1920.jpg);
             .item6__title{
                 @include item-title;
             }
