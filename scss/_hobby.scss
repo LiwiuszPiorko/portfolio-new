@@ -4,11 +4,15 @@
         position: relative;
         background: rgb(0,0,0);
         background: radial-gradient(circle, rgba(0,0,0,1) 30%, rgba(134, 0, 0, 1) 50%, rgba(0,0,0,1) 70%);
+        overflow: hidden;
         .hobby-wrapper__item1{
             @include item;
             top: 10%;
             left: 30%;
             background-image: url(../img/bookcase-1869616_1920.jpg);
+            @media(orientation: portrait){
+                top: 15%;
+             }
             .item1__title{
                 @include item-title;
             }
@@ -19,6 +23,10 @@
             left: 5%;
             transform: rotate(-25deg);
             background-image: url(../img/portrait-3163518_1920.jpg);
+            @media(orientation: portrait){
+                top: 30%;
+                left: 0;
+             }
             .item2__title{
                 @include item-title;
             }
@@ -29,6 +37,10 @@
             left: 35%;
             transform: rotate(10deg);
             background-image: url(../img/bustos-756620_1920.jpg);
+            @media(orientation: portrait){
+                top: 50%;
+                left: 10%;
+             }
             .item3__title{
                 @include item-title;
             }
@@ -39,6 +51,10 @@
             right: 10%;
             transform: rotate(10deg);
             background-image: url(../img/meditation-1384758_1920.jpg);
+            @media(orientation: portrait){
+                top: 45%;
+                right: 0;
+             }
             .item4__title{
                @include item-title;
             }
@@ -49,6 +65,10 @@
             right: 5%;
             transform: rotate(-15deg);
             background-image: url(../img/movie-918655_1920.jpg);
+            @media(orientation: portrait){
+                top: 30%;
+                right: 0;
+             }
             .item5__title{
                 @include item-title;
             }
@@ -58,6 +78,9 @@
             bottom: 5%;
             left: 5%;
             background-image: url(../img/quantum-mechanics-1525470_1920.jpg);
+            @media(orientation: portrait){
+                bottom: 15%;
+             }
             .item6__title{
                 @include item-title;
             }

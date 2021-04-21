@@ -21,7 +21,7 @@
             font-size: 5vw;
             font-weight: 700;
             color: $mainColor;
-            animation: firstSentenceAnimation 2s .5s both;
+            animation: firstSentenceAnimation 1s .5s both;
             @keyframes firstSentenceAnimation {
                 0%{
                     opacity: 0;

@@ -137,6 +137,12 @@
                 color: $colorWhite;
                 font-style: italic;
                 font-weight: 300;
+                @media(orientation:portrait){
+                    padding: .5em;
+                    text-align: justify;
+                    height: 40%;
+                    font-size: 3.5vw;
+                }
 
                 span{
                     color: $mainColor;
@@ -152,6 +158,10 @@
                 color: $colorWhite;
                 font-style: italic;
                 font-weight: 300;
+                @media(orientation:portrait){
+                    width: 85%;
+                    font-size: 2.5vw;
+                }
                 span{
                     color: $mainColor;
                     font-style: normal;
@@ -167,6 +177,11 @@
                 color: $mainColor;
                 font-weight: 700;
                 text-align: right;
+                @media(orientation:portrait){
+                    width: 90%;
+                    height: 10%;
+                    font-size: 5vw;
+                }
             }
         }
     }

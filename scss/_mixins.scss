@@ -6,6 +6,10 @@
     background-position: center;
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    @media(orientation: portrait){
+        width: 50%;
+        height: 20%;
+    }
 }
 @mixin item-title {
     width: 100%;
@@ -18,6 +22,9 @@
     font-size: 2.5vw;
     font-weight: 300;
     background-color: rgba($color: #000000, $alpha: .4);
+    @media(orientation: portrait){
+      font-size: 5vw;
+    }
 }
 @mixin tech-item {
     width: 100%;
@@ -32,9 +39,15 @@
     align-items: center;
     color: $colorWhite;
     font-size: 3vw;
+    @media(orientation:portrait){
+        font-size: 6vw;
+    }
 }
 @mixin tech-scale {
     height: 45%;
     background: linear-gradient($mainColor, $colorBlack);
-    border-radius: 15px;
+    border-radius: 10px;
+    @media(orientation:portrait){
+        height: 35%;
+    }
 }

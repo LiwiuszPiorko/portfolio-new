@@ -7,15 +7,24 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    @media(orientation:portrait){
+        width: 100%;
+    }
     .menu__profiles{
         width: 5%;
         height: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        @media(orientation:portrait){
+            width: 6%;
+        }
         i{
             color: $mainColor;
             font-size: 1vw;
+            @media(orientation:portrait){
+                font-size: 2.5vw;
+            }
         }
     }
     .menu__link{
@@ -27,9 +36,13 @@
         font-family: $mainFont;
         font-size: 1vw;
         font-weight: 700;
+
         a{
             color: $colorWhite;
             text-decoration: none;
+            @media(orientation:portrait){
+                font-size: 4vw;
+            }
             &:hover{
                 text-decoration: underline 2px $mainColor;
             }
@@ -55,8 +68,14 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
+            @media(orientation:portrait){
+                width: 80%;
+            }
             .first-element__img{
                 width: 30%;
+                @media(orientation:portrait){
+                    width: 70%;
+                }
                 .img__image{
                     width: 100%;
                     height: auto;
@@ -71,15 +90,22 @@
             .first-element__text{
                 width: 90%;
                 height: 60%;
+                @media(orientation:portrait){
+                    height: 30%;
+                }
                 .text__first-sentence{
                     width: 100%;
                     height: 20%;
                     display: flex;
                     justify-content: end;
+                    align-items: center;
                     font-family: $mainFont;
                     color: $colorWhite;
                     font-size: 2.5vw;
                     font-weight: 700;
+                    @media(orientation:portrait){
+                        font-size: 4.5vw;
+                    }
                 }
                 .text__second-sentence{
                     width: 100%;
@@ -91,12 +117,18 @@
                     color: $colorWhite;
                     font-size: 2vw;
                     font-weight: 300;
+                    @media(orientation:portrait){
+                        font-size: 3vw;
+                    }
                     span{
                         padding-left: .5em;
                         padding-right: .2em;
                         color: $mainColor;
                         font-size: 3vw;
                         font-weight: 700;
+                        @media(orientation:portrait){
+                            font-size: 5vw;
+                        }
                     }
                 }
                 .text__third-sentence{
@@ -109,11 +141,17 @@
                     color: $colorWhite;
                     font-size: 2vw;
                     font-weight: 300;
+                    @media(orientation:portrait){
+                        font-size: 3vw;
+                    }
                     span{
                         padding-left: .5em;
                         color: $mainColor;
                         font-size: 3vw;
                         font-weight: 700;
+                        @media(orientation:portrait){
+                            font-size: 4vw;
+                        }
                     }
                 }
 
@@ -128,6 +166,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media(orientation:portrait){
+                width: 80%;
+                height: 20%;
+            }
             .second-element__text{
                 width: 80%;
                 height: 90%;
@@ -142,9 +184,15 @@
                     font-size: 1vw;
                     font-style: italic;
                     text-align: justify;
+                    @media(orientation:portrait){
+                        font-size: 2.5vw;
+                    }
                     span{
                         color: $mainColor;
                         font-size: 1vw;
+                        @media(orientation:portrait){
+                            font-size: 2.5vw;
+                        }
                     }
                 }
             }
